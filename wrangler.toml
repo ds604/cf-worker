@@ -1,17 +1,8 @@
-name = "ancient-resonance-4b29"
-type = "javascript"
+name = "my-app"
+type = "webpack"
 
-account_id = "25398fa592efd5b92816a8d4a6fb4174"
+account_id = ""
 workers_dev = true
-compatibility_date = "2021-12-16"
-
-[build.upload]
-format = "modules"
-main = "./index.js" # becomes "./src/worker.js"
-
-[[build.upload.rules]]
-type = "ESModule"
-globs = ["**/*.js"]
-
-[build]
-command = "npm run build"
+route = ""
+zone_id = ""
+compatibility_date = "2021-12-17"
