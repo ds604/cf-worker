@@ -1,7 +1,9 @@
+import { getDate } from "./src/util.js"
+
 addEventListener("fetch", event => {
   event.respondWith(handleRequest(event.request))
 })
 
 async function handleRequest(request) {
-  return new Response("Hello world from github action")
+  return new Response(`Hello world, today is ${getDate()}`)
 }
